@@ -1,0 +1,87 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# --- FastAPI / Logs ---
+*.log
+*.db
+*.sqlite3
+
+# --- Tests ---
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Frontend (React / Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+frontend/.env.test.local
+
+# Frontend React
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/build/
+frontend-react/.env.local
+frontend-react/.env.development.local
+frontend-react/.env.production.local
+package-lock.json
+
+# --- Docker ---
+*.pid
+*.tar
+*.bak
+.docker/
+docker-compose.override.yml
+
+# --- Docs / MkDocs ---
+site/
+docs/__pycache__/
+
+# --- OS / Misc ---
+*.tmp
+*.bak
+*.old
